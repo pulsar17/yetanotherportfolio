@@ -1,0 +1,80 @@
+body {
+  background: url('./starry-sky-2051448.jpg') rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+.gfont{
+    font-family: 'Ubuntu';
+    padding: 5px;
+}
+.gfont-child{
+    font-family: 'Ubuntu';
+    padding: 5px;
+    font-size: 24px;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    margin: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 15px;
+    border-radius: 10px;    
+
+}
+
+
+.card.horizontal{
+    width: 466px;
+    height: 300px;
+    margin: 16px;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.fa.md-24 { font-size: 24px; }
+.fa.md-36 { font-size: 36px; }
+.fa.md-18 { font-size: 18px; }
+.fa.md-48 { font-size: 48px; }
+
+.fa.md-24{
+    font-size: 24px;
+}
+
+span.color-pink{
+    background-color: rgb(146, 93, 182);;
+}
+
+i.icon-blue {
+    color: rgb(126, 126, 236);
+}
+i.icon-pink {
+    color: rgb(192, 126, 236);
+}
+
+.workplace{
+    padding-left: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.time-period{
+    padding-left: 30px;
+    padding-top: 0px;
+}
+
+
+/* i{
+    padding: 5px;
+    padding-bottom: 10px;
+} */
+
+
