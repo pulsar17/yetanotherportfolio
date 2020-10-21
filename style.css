@@ -20,6 +20,13 @@ body{
     z-index: -1;
   }
 
+.card-container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0 1rem;
+}
+
 .gfont{
     font-family: 'Ubuntu';
     padding: 5px;
@@ -31,21 +38,39 @@ body{
 }
 
 .card{
-    width: 300px;
+    width: 30%;
     height: 400px;
-    margin: 16px;
+    /* margin: 16px; */
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px 15px;
     border-radius: 10px;
     backdrop-filter: blur(5px);    
-
+    
 }
 
 
 .card.horizontal{
-    width: 466px;
+    width: 48%;
     height: 300px;
-    margin: 16px;
+    /* margin: 16px; */
+}
+
+.padding-for-social{
+    padding: 0 1rem;
+}
+
+@media(max-width: 800px){
+    .card{
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    .card.horizontal{
+    width: 90%;
+    height: 350px;
+    /* margin: 16px; */
+}
+
 }
 
 .material-icons.md-18 { font-size: 18px; }
@@ -83,11 +108,3 @@ i.icon-pink {
     padding-left: 30px;
     padding-top: 0px;
 }
-
-
-/* i{
-    padding: 5px;
-    padding-bottom: 10px;
-} */
-
-
